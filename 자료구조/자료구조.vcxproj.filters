@@ -13,5 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\0306">
+      <UniqueIdentifier>{3b0f3185-f1f4-49c2-ac20-68b5232791b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0306-문제1.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제2.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제3.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제4.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제5.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제6.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제7.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+    <ClCompile Include="0306-문제8.cpp">
+      <Filter>소스 파일\0306</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\PDFS\0306-1주차_C복습.pdf">
+      <Filter>소스 파일\0306</Filter>
+    </None>
   </ItemGroup>
 </Project>
