@@ -81,6 +81,9 @@
     <ClCompile Include="0320-문제7.cpp">
       <Filter>소스 파일\0320-재귀</Filter>
     </ClCompile>
+    <ClCompile Include="0320-과제1.cpp">
+      <Filter>소스 파일\0320-재귀</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
