@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\0327-배열">
       <UniqueIdentifier>{29ba5789-e636-4b94-8b36-6d10118a135e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0403-배열문제">
+      <UniqueIdentifier>{43ced4c5-b23e-417d-8945-217fb6d208c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -105,6 +108,12 @@
     <ClCompile Include="과제2-다항식.cpp">
       <Filter>소스 파일\0327-배열</Filter>
     </ClCompile>
+    <ClCompile Include="0403-문제1.cpp">
+      <Filter>소스 파일\0403-배열문제</Filter>
+    </ClCompile>
+    <ClCompile Include="0403-문제2.cpp">
+      <Filter>소스 파일\0403-배열문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -118,6 +127,9 @@
     </None>
     <None Include="..\PDFS\0327-4주차_배열.pdf">
       <Filter>소스 파일\0327-배열</Filter>
+    </None>
+    <None Include="..\PDFS\0403-5주차-퀴즈.pdf">
+      <Filter>소스 파일\0403-배열문제</Filter>
     </None>
   </ItemGroup>
 </Project>
