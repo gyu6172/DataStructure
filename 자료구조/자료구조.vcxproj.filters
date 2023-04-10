@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\0403-배열문제">
       <UniqueIdentifier>{43ced4c5-b23e-417d-8945-217fb6d208c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0410-연결리스트">
+      <UniqueIdentifier>{ee3f88c2-de23-4347-9d5e-44c6e0379b9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -114,6 +117,12 @@
     <ClCompile Include="0403-문제2.cpp">
       <Filter>소스 파일\0403-배열문제</Filter>
     </ClCompile>
+    <ClCompile Include="0410-문제1.cpp">
+      <Filter>소스 파일\0410-연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="0410-문제2.cpp">
+      <Filter>소스 파일\0410-연결리스트</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -130,6 +139,9 @@
     </None>
     <None Include="..\PDFS\0403-5주차-퀴즈.pdf">
       <Filter>소스 파일\0403-배열문제</Filter>
+    </None>
+    <None Include="..\PDFS\0410-5~6주차_연결리스트.pdf">
+      <Filter>소스 파일\0410-연결리스트</Filter>
     </None>
   </ItemGroup>
 </Project>

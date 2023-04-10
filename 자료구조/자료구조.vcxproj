@@ -221,6 +221,12 @@
     <ClCompile Include="0403-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="0410-문제1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="0410-문제2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="과제2-다항식.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -231,6 +237,7 @@
     <None Include="..\PDFS\0320-3주차-재귀.pdf" />
     <None Include="..\PDFS\0327-4주차_배열.pdf" />
     <None Include="..\PDFS\0403-5주차-퀴즈.pdf" />
+    <None Include="..\PDFS\0410-5~6주차_연결리스트.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
