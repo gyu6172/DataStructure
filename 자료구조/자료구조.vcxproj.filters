@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\0410-연결리스트">
       <UniqueIdentifier>{ee3f88c2-de23-4347-9d5e-44c6e0379b9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0417-집합">
+      <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -123,6 +126,12 @@
     <ClCompile Include="0410-문제2.cpp">
       <Filter>소스 파일\0410-연결리스트</Filter>
     </ClCompile>
+    <ClCompile Include="0417-문제1.cpp">
+      <Filter>소스 파일\0417-집합</Filter>
+    </ClCompile>
+    <ClCompile Include="0417-문제2.cpp">
+      <Filter>소스 파일\0417-집합</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -142,6 +151,9 @@
     </None>
     <None Include="..\PDFS\0410-5~6주차_연결리스트.pdf">
       <Filter>소스 파일\0410-연결리스트</Filter>
+    </None>
+    <None Include="..\PDFS\0417-7주차_집합.pdf">
+      <Filter>소스 파일\0417-집합</Filter>
     </None>
   </ItemGroup>
 </Project>
