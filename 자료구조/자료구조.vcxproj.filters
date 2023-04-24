@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\0417-집합">
       <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\중간고사 연습">
+      <UniqueIdentifier>{5ee0f506-f4e4-4441-b461-ea2076ba5ed9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -131,6 +134,9 @@
     </ClCompile>
     <ClCompile Include="0417-문제2.cpp">
       <Filter>소스 파일\0417-집합</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사연습-이중연결리스트.cpp">
+      <Filter>소스 파일\중간고사 연습</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
