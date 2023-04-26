@@ -138,6 +138,12 @@
     <ClCompile Include="중간고사연습-이중연결리스트.cpp">
       <Filter>소스 파일\중간고사 연습</Filter>
     </ClCompile>
+    <ClCompile Include="중간고사연습-테스트.cpp">
+      <Filter>소스 파일\중간고사 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\0417-집합</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
