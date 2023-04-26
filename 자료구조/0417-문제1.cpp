@@ -8,7 +8,9 @@ int subset(Node* a, Node* b);
 int main() {
 	int asize;
 	scanf("%d",&asize);
-	Node* A=nullptr;
+
+	Node* A=ぬづびび;
+
 	for (int i = 0; i < asize; i++) {
 		int n;
 		scanf("%d",&n);
