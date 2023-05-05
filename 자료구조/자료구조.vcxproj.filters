@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\0501-스택">
       <UniqueIdentifier>{6d9ad1f5-550a-4fc2-90ef-07d660fa0b7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0508-스택2">
+      <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -165,6 +168,15 @@
     <ClCompile Include="0501-문제2.cpp">
       <Filter>소스 파일\0501-스택</Filter>
     </ClCompile>
+    <ClCompile Include="0508-문제1.cpp">
+      <Filter>소스 파일\0508-스택2</Filter>
+    </ClCompile>
+    <ClCompile Include="스택틀.cpp">
+      <Filter>소스 파일\0501-스택</Filter>
+    </ClCompile>
+    <ClCompile Include="0508-문제2.cpp">
+      <Filter>소스 파일\0508-스택2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -190,6 +202,9 @@
     </None>
     <None Include="..\PDFS\0501-9주차_스택.pdf">
       <Filter>소스 파일\0501-스택</Filter>
+    </None>
+    <None Include="..\PDFS\0508-10주차_스택2.pdf">
+      <Filter>소스 파일\0508-스택2</Filter>
     </None>
   </ItemGroup>
 </Project>
