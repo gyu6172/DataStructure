@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define element char
-int MAXSIZE = 100;
+int MAXSIZE = 101;
 typedef struct StackType{
 	int top;
 	element* data;
@@ -34,15 +34,20 @@ element peek(StackType* stack) {
 		return stack->data[(stack->top)];
 }
 
-int getPriority(char c) {
-	if (c == '!'/* || c == '+' || c == '-'*/) {
+int getPriority(char c, char next) {
+	if (c == '!') {
 		return 6;
 	}
 	else if (c == '*' || c == '/') {
 		return 5;
 	}
 	else if (c == '+' || c == '-') {
-		return 4;
+		if (c == next) {
+			return 6;
+		}
+		else {
+			return 4;
+		}
 	}
 	else if (c == '>' || c == '<') {
 		return 3;
@@ -59,16 +64,17 @@ int getPriority(char c) {
 }
 
 void printOperator(StackType* stack) {
-	if (peek(stack) == '&' || peek(stack) == '|') {
-		printf("%c", peek(stack));
-	}
-	printf("%c", pop(stack));
+	
 }
 
 int main() {
 	StackType stack;
 	stack.top = -1;
 	stack.data = (element*)malloc(sizeof(element) * MAXSIZE);
+
+	StackType repeatStack;
+	repeatStack.top = -1;
+	repeatStack.data = (element*)malloc(sizeof(element) * MAXSIZE);
 
 	int n;
 	scanf("%d",&n);
@@ -86,26 +92,43 @@ int main() {
 				}
 				if (isEmpty(&stack) || str[j]=='(') {
 					push(&stack, str[j]);
+					push(&repeatStack, '0');
 				}
 				else if (str[j] == ')') {
 					while (peek(&stack) != '(') {
-						printOperator(&stack);
+						char op = pop(&stack);
+						int rep = pop(&repeatStack);
+						printf("%c", pop(&stack));
+						if (rep == 1) {
+							printf("%c", pop(&stack));
+						}
 					}
 					pop(&stack);
+					pop(&repeatStack);
 				}
 				else {
 					while (1) {
-						if (isEmpty(&stack) || getPriority(peek(&stack)) < getPriority(str[j])) {
+						if (isEmpty(&stack) || getPriority(peek(&stack),peek(&repeatStack)) < getPriority(str[j], str[j+1])) {
 							break;
 						}
-						printOperator(&stack);
+						char op = pop(&stack);
+						int rep = pop(&repeatStack);
+						printf("%c", pop(&stack));
+						if (rep == '1') {
+							printf("%c", pop(&stack));
+						}
 					}
 					push(&stack, str[j]);
 				}
 			}
 		}
 		while (!isEmpty(&stack)) {
-			printOperator(&stack);
+			char op = pop(&stack);
+			int rep = pop(&repeatStack);
+			printf("%c", pop(&stack));
+			if (rep == '1') {
+				printf("%c", pop(&stack));
+			}
 		}
 		printf("\n");
 	}
