@@ -34,7 +34,16 @@ element peek(StackType* stack) {
 		return stack->data[(stack->top)];
 }
 
-int getPriority(char c, char repeat) {
+int isOperator(char c) {
+	if (c=='+' || c=='-' || c=='*' || c=='/' || c=='!' || c=='&' || c=='|' || c=='>' || c=='<') {
+		return 1;
+	}
+	else {
+		return 0;
+	}
+}
+
+int getPriority(char c, char prev) {
 	if (c == '!') {
 		return 6;
 	}
@@ -42,8 +51,8 @@ int getPriority(char c, char repeat) {
 		return 5;
 	}
 	else if (c == '+' || c == '-') {
-		if (repeat == '1') {
-			return 6;
+		if (isOperator(prev)) {
+			return 7;
 		}
 		else {
 			return 4;
@@ -58,23 +67,21 @@ int getPriority(char c, char repeat) {
 	else if (c == '|') {
 		return 1;
 	}
-	else if (c == '(') {
+	else if (c == '(' || c==')') {
 		return 0;
 	}
 }
 
-void printOperator(StackType* stack) {
 
-}
 
 int main() {
 	StackType stack;
 	stack.top = -1;
 	stack.data = (element*)malloc(sizeof(element) * MAXSIZE);
 
-	StackType repeat_stack;
-	repeat_stack.top = -1;
-	repeat_stack.data = (element*)malloc(sizeof(element) * MAXSIZE);
+	StackType prev_stack;
+	prev_stack.top = -1;
+	prev_stack.data = (element*)malloc(sizeof(element) * MAXSIZE);
 
 	int n;
 	scanf("%d", &n);
@@ -87,62 +94,65 @@ int main() {
 				printf("%c", str[j]);
 			}
 			else {
-				if ((str[j] == '+' || str[j] == '-' || str[j] == '&' || str[j] == '|') && (str[j + 1] != NULL) && (str[j + 1] == str[j])) {
-					while (1) {
-						if (isEmpty(&stack) || getPriority(peek(&stack),peek(&repeat_stack)) < getPriority(str[j], '1')) {
-							break;
-						}
-						if (pop(&repeat_stack) == '1') {
-							printf("%c", peek(&stack));
-						}
-						printf("%c", pop(&stack));
-					}
-					push(&stack, str[j]);
-					push(&repeat_stack, '1');
+				if (str[j] == '&' || str[j] == '|') {
 					j++;
 				}
-				else {
-					if (isEmpty(&stack) || str[j] == '(') {
-						push(&stack, str[j]);
-						push(&repeat_stack, '0');
+				if (isEmpty(&stack) || str[j] == '(') {
+					
+					push(&stack, str[j]);
+					if (j == 0) {
+						push(&prev_stack, '+');
+						
 					}
 					else {
-						if (str[j] == ')') {
-							while (peek(&stack) != '(') {
-								if (pop(&repeat_stack) == '1') {
-									printf("%c", peek(&stack));
-								}
-								printf("%c", pop(&stack));
-							}
-							pop(&stack);
-							pop(&repeat_stack);
+						push(&prev_stack, str[j - 1]);
+
+					}
+				}
+				else if (str[j] == ')') {
+					char c = pop(&stack);
+					pop(&prev_stack);
+					
+					while (c != '(') {
+						printf("%c", c);
+						if (c == '&' || c == '|') {
+							printf("%c", c);
 						}
-						else{
-							while (1) {
-								if (isEmpty(&stack) || getPriority(peek(&stack), peek(&repeat_stack)) < getPriority(str[j], '0')) {
-									break;
-								}
-								if (pop(&repeat_stack) == '1') {
-									printf("%c", peek(&stack));
-								}
-								printf("%c", pop(&stack));
-							}
-							push(&stack, str[j]);
-							push(&repeat_stack, '0');
+						c = pop(&stack);
+						pop(&prev_stack);
+					}
+				}
+				else {
+					while (1) {
+						if (isEmpty(&stack) || getPriority(peek(&stack), peek(&prev_stack)) < getPriority(str[j], str[j - 1])) {
+							break;
+						}
+						char c = pop(&stack);
+						pop(&prev_stack);
+						printf("%c", c);
+						if (c == '&' || c == '|') {
+							printf("%c", c);
+
 						}
 					}
+					push(&stack, str[j]);
+					push(&prev_stack, str[j - 1]);
+				
 				}
 			}
 		}
 		while (!isEmpty(&stack)) {
-			if (pop(&repeat_stack) == '1') {
-				printf("%c", peek(&stack));
+			char c = pop(&stack);
+			pop(&prev_stack);
+			printf("%c", c);
+			if (c == '&' || c == '|') {
+				printf("%c", c);
+
 			}
-			printf("%c", pop(&stack));
 		}
 		printf("\n");
 	}
 
-	free(stack.data);
+
 	return 0;
 }
