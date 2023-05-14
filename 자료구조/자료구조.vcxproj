@@ -254,6 +254,9 @@
     <ClCompile Include="0508-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="0515-문제1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="과제2-다항식.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -271,6 +274,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\Downloads\0515-11주차_큐.pdf" />
     <None Include="..\PDFS\0306-1주차_C복습.pdf" />
     <None Include="..\PDFS\0313-2주차_분석.pdf" />
     <None Include="..\PDFS\0320-3주차-재귀.pdf" />
