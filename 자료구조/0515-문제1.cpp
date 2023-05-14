@@ -39,7 +39,7 @@ void insertElement(Queue* q, Element elem) {
 	if (isFull(q)) {
 		printf("overflow ");
 		printQueue(q);
-		return;
+		exit(0);
 	}
 	else {
 		q->rear = (q->rear+1)%(q->size);
@@ -50,7 +50,7 @@ void insertElement(Queue* q, Element elem) {
 void deleteElement(Queue* q) {
 	if (isEmpty(q)) {
 		printf("underflow\n");
-		return;
+		exit(0);
 	}
 	else {
 

@@ -183,6 +183,9 @@
     <ClCompile Include="0515-문제1.cpp">
       <Filter>소스 파일\0515-큐</Filter>
     </ClCompile>
+    <ClCompile Include="0515-문제2.cpp">
+      <Filter>소스 파일\0515-큐</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
