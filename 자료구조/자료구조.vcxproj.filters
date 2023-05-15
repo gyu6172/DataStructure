@@ -46,8 +46,8 @@
     <Filter Include="소스 파일\0508-스택2">
       <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\과제4">
-      <UniqueIdentifier>{31ccbc97-9cf7-49d9-82b3-31934acb5a81}</UniqueIdentifier>
+    <Filter Include="소스 파일\0515-큐">
+      <UniqueIdentifier>{84455706-ea49-4ea4-a564-8df527ae149c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -180,8 +180,11 @@
     <ClCompile Include="0508-문제2.cpp">
       <Filter>소스 파일\0508-스택2</Filter>
     </ClCompile>
-    <ClCompile Include="과제4-폴더용량계산.cpp">
-      <Filter>소스 파일\과제4</Filter>
+    <ClCompile Include="0515-문제1.cpp">
+      <Filter>소스 파일\0515-큐</Filter>
+    </ClCompile>
+    <ClCompile Include="0515-문제2.cpp">
+      <Filter>소스 파일\0515-큐</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +214,9 @@
     </None>
     <None Include="..\PDFS\0508-10주차_스택2.pdf">
       <Filter>소스 파일\0508-스택2</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\0515-11주차_큐.pdf">
+      <Filter>소스 파일\0515-큐</Filter>
     </None>
   </ItemGroup>
 </Project>
