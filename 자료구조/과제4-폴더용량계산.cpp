@@ -17,21 +17,27 @@ treeNode* makeRootNode(int size, treeNode* leftNode, treeNode* rightNode)
 }
 int preorder_FolderSize(treeNode* root)
 {
-	if (root) {
-		FolderSize += root->size;
-		preorder_FolderSize(root->left);
-		preorder_FolderSize(root->right);
+	int left_size=0, right_size=0;
+	if (root == NULL) {
+		return 0;
 	}
-	return FolderSize;
+
+	return (left_size+right_size+root->size);
+	left_size = preorder_FolderSize(root->left);
+	right_size = preorder_FolderSize(root->right);
+
 }
 int inorder_FolderSize(treeNode* root)
 {
-	if (root) {
-		inorder_FolderSize(root->left);
-		FolderSize += root->size;
-		inorder_FolderSize(root->right);
+	int left_size = 0, right_size = 0;
+	if (root == NULL) {
+		return 0;
 	}
-	return FolderSize;
+
+	left_size = inorder_FolderSize(root->left);
+	return (left_size + right_size + root->size);
+	right_size = inorder_FolderSize(root->right);
+
 }
 int postorder_FolderSize(treeNode* root)
 {
