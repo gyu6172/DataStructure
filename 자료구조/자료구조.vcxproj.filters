@@ -195,6 +195,9 @@
     <ClCompile Include="0522-문제1.cpp">
       <Filter>소스 파일\0522-트리</Filter>
     </ClCompile>
+    <ClCompile Include="과제5-이진탐색트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
