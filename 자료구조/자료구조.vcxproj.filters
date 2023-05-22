@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\0515-큐">
       <UniqueIdentifier>{84455706-ea49-4ea4-a564-8df527ae149c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0522-트리">
+      <UniqueIdentifier>{f66084b4-4c8e-462f-b81c-b1edf8c29e95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -189,6 +192,9 @@
     <ClCompile Include="과제4-폴더용량계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0522-문제1.cpp">
+      <Filter>소스 파일\0522-트리</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -220,6 +226,9 @@
     </None>
     <None Include="..\..\..\..\Downloads\0515-11주차_큐.pdf">
       <Filter>소스 파일\0515-큐</Filter>
+    </None>
+    <None Include="..\PDFS\0522-12주차_트리.pdf">
+      <Filter>소스 파일\0522-트리</Filter>
     </None>
   </ItemGroup>
 </Project>
