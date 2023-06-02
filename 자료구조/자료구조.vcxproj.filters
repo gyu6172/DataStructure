@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\0529-트리2">
       <UniqueIdentifier>{72ef82e4-55ba-4257-8134-ef4ca5ab5232}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0605-트리3">
+      <UniqueIdentifier>{f655c920-5980-4de4-8d32-e4a67db43eb8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -207,6 +210,9 @@
     <ClCompile Include="0529-문제2.cpp">
       <Filter>소스 파일\0529-트리2</Filter>
     </ClCompile>
+    <ClCompile Include="0605-문제1.cpp">
+      <Filter>소스 파일\0605-트리3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
@@ -244,6 +250,9 @@
     </None>
     <None Include="..\PDFS\0529-13주차_트리(2).pdf">
       <Filter>소스 파일\0529-트리2</Filter>
+    </None>
+    <None Include="..\PDFS\0605-14주차_트리(3).pdf">
+      <Filter>소스 파일\0605-트리3</Filter>
     </None>
   </ItemGroup>
 </Project>
