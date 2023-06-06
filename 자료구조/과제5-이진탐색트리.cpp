@@ -5,15 +5,6 @@ typedef struct TreeNode {
 	struct TreeNode* left;
 	struct TreeNode* right;
 }treeNode;
-treeNode* makeRootNode(int data, treeNode* leftNode, treeNode* rightNode)
-{
-	treeNode* root = (treeNode*)malloc(sizeof(treeNode));
-	root->data = data;
-	root->left = leftNode;
-	root->right = rightNode;
-	return root;
-
-}
 
 treeNode* findNodeByNum(treeNode* root, int num) {
 	if (root->data < num) {
@@ -26,6 +17,32 @@ treeNode* findNodeByNum(treeNode* root, int num) {
 		return root;
 	}
 
+}
+
+treeNode* makeNode(int data, treeNode* root)
+{
+	treeNode* node = (treeNode*)malloc(sizeof(treeNode));
+	node->data = data;
+	node->left = NULL;
+	node->right = NULL;
+	if (root == NULL) {
+		root = node;
+		return root;
+	}
+	else {
+		while (true) {
+			if (root->data < data) {
+				root = root->right;
+			}
+			else if (root->data > data) {
+				root = root->left;
+			}
+			else {
+				return root;
+			}
+		}
+		
+	}
 }
 
 treeNode* maxNode(treeNode* node) {
@@ -52,15 +69,17 @@ treeNode* minNode(treeNode* node) {
 
 int main()
 {
-	treeNode* n16 = makeRootNode(16, NULL, NULL);
-	treeNode* n11 = makeRootNode(11, NULL, NULL);
-	treeNode* n14 = makeRootNode(14, n11, n16);
-	treeNode* n10 = makeRootNode(10, NULL, n14);
-	treeNode* n2 = makeRootNode(2, NULL, NULL);
-	treeNode* n4 = makeRootNode(4, NULL, NULL);
-	treeNode* n5 = makeRootNode(5, n4, NULL);
-	treeNode* n3 = makeRootNode(3, n2, n5);
-	treeNode* n8 = makeRootNode(8, n3, n10);
+	//treeNode* n16 = makeNode(16, NULL, NULL);
+	//treeNode* n11 = makeNode(11, NULL, NULL);
+	//treeNode* n14 = makeNode(14, n11, n16);
+	//treeNode* n10 = makeNode(10, NULL, n14);
+	//treeNode* n2 = makeNode(2, NULL, NULL);
+	//treeNode* n4 = makeNode(4, NULL, NULL);
+	//treeNode* n5 = makeNode(5, n4, NULL);
+	//treeNode* n3 = makeNode(3, n2, n5);
+	//treeNode* n8 = makeNode(8, n3, n10);
+	treeNode *root;
+	root = makeNode(8, root);
 
 	printf("기준 노드를 입력하세요:");
 	int node_num;

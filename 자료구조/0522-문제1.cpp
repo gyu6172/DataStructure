@@ -6,7 +6,7 @@ typedef struct TreeNode {
 	struct TreeNode* right;
 }TreeNode;
 
-TreeNode* makeRootNode(int size, TreeNode* leftNode, TreeNode* rightNode)
+TreeNode* makeNode(int size, TreeNode* leftNode, TreeNode* rightNode)
 {
 	TreeNode* root = (TreeNode*)malloc(sizeof(TreeNode));
 	root->data = size;
@@ -40,14 +40,14 @@ void printNode(TreeNode* node) {
 }
 
 int main() {
-	TreeNode* F8 = makeRootNode(80, NULL, NULL);
-	TreeNode* F7 = makeRootNode(130, NULL, NULL);
-	TreeNode* F6 = makeRootNode(120, F7, F8);
-	TreeNode* F5 = makeRootNode(90, NULL, NULL);
-	TreeNode* F4 = makeRootNode(70, NULL, NULL);
-	TreeNode* F3 = makeRootNode(50, NULL, F6);
-	TreeNode* F2 = makeRootNode(30, F4, F5);
-	TreeNode* F1 = makeRootNode(20, F2, F3);
+	TreeNode* F8 = makeNode(80, NULL, NULL);
+	TreeNode* F7 = makeNode(130, NULL, NULL);
+	TreeNode* F6 = makeNode(120, F7, F8);
+	TreeNode* F5 = makeNode(90, NULL, NULL);
+	TreeNode* F4 = makeNode(70, NULL, NULL);
+	TreeNode* F3 = makeNode(50, NULL, F6);
+	TreeNode* F2 = makeNode(30, F4, F5);
+	TreeNode* F1 = makeNode(20, F2, F3);
 
 	int n;
 	scanf("%d",&n);
