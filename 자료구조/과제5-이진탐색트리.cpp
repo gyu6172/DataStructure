@@ -6,43 +6,44 @@ typedef struct TreeNode {
 	struct TreeNode* right;
 }treeNode;
 
-treeNode* findNodeByNum(treeNode* root, int num) {
-	if (root->data < num) {
-		return findNodeByNum(root->right, num);
-	}
-	else if (root->data > num) {
-		return findNodeByNum(root->left, num);
-	}
-	else {
-		return root;
-	}
-
-}
-
-treeNode* makeNode(int data, treeNode* root)
+treeNode* newNode(int data)
 {
 	treeNode* node = (treeNode*)malloc(sizeof(treeNode));
 	node->data = data;
 	node->left = NULL;
 	node->right = NULL;
+	return node;
+
+}
+
+treeNode* insertNode(treeNode* node, int data) {
+	if (node == NULL) {
+		return newNode(data);
+	}
+	if (data < node->data) {
+		node->left = insertNode(node->left, data);
+	}
+	else if (data > node->data) {
+		node->right = insertNode(node->right, data);
+	}
+
+	return node;
+}
+
+treeNode* searchNode(treeNode* root, int num) {
 	if (root == NULL) {
-		root = node;
-		return root;
+		return NULL;
+	}
+	if (root->data < num) {
+		return searchNode(root->right, num);
+	}
+	else if (root->data > num) {
+		return searchNode(root->left, num);
 	}
 	else {
-		while (true) {
-			if (root->data < data) {
-				root = root->right;
-			}
-			else if (root->data > data) {
-				root = root->left;
-			}
-			else {
-				return root;
-			}
-		}
-		
+		return root;
 	}
+
 }
 
 treeNode* maxNode(treeNode* node) {
@@ -69,26 +70,31 @@ treeNode* minNode(treeNode* node) {
 
 int main()
 {
-	//treeNode* n16 = makeNode(16, NULL, NULL);
-	//treeNode* n11 = makeNode(11, NULL, NULL);
-	//treeNode* n14 = makeNode(14, n11, n16);
-	//treeNode* n10 = makeNode(10, NULL, n14);
-	//treeNode* n2 = makeNode(2, NULL, NULL);
-	//treeNode* n4 = makeNode(4, NULL, NULL);
-	//treeNode* n5 = makeNode(5, n4, NULL);
-	//treeNode* n3 = makeNode(3, n2, n5);
-	//treeNode* n8 = makeNode(8, n3, n10);
-	treeNode *root;
-	root = makeNode(8, root);
+
+	treeNode* root = NULL;
+	root = insertNode(root, 8);
+	root = insertNode(root, 3);
+	root = insertNode(root, 10);
+	root = insertNode(root, 2);
+	root = insertNode(root, 5);
+	root = insertNode(root, 14);
+	root = insertNode(root, 4);
+	root = insertNode(root, 11);
+	root = insertNode(root, 16);
 
 	printf("기준 노드를 입력하세요:");
 	int node_num;
 	scanf("%d",&node_num);
 
-	treeNode* st_node = findNodeByNum(n8, node_num);
+	treeNode* st_node = searchNode(root, node_num);
 
-	printf("기준 노드의 좌측 서브트리에서 가장 큰 노드는 %d, ", maxNode(st_node)->data);
-	printf("우측 서브 트리에서 가장 작은 노드는 %d입니다.", minNode(st_node)->data);
+	printf("기준 노드의 ");
+	if (maxNode(st_node) != NULL) {
+		printf("좌측 서브트리에서 가장 큰 노드는 %d, ", maxNode(st_node)->data);
+	}
+	if (minNode(st_node) != NULL) {
+		printf("우측 서브 트리에서 가장 작은 노드는 %d입니다.", minNode(st_node)->data);
+	}
 
 
 }
