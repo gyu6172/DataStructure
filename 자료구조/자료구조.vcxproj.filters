@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\0605-트리3">
       <UniqueIdentifier>{f655c920-5980-4de4-8d32-e4a67db43eb8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\기말고사연습">
+      <UniqueIdentifier>{c0e105ff-416f-4228-88a3-723c080d1747}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">

@@ -84,7 +84,7 @@ int main()
 
 	printf("기준 노드를 입력하세요:");
 	int node_num;
-	scanf("%d",&node_num);
+	scanf("%d", &node_num);
 
 	treeNode* st_node = searchNode(root, node_num);
 
