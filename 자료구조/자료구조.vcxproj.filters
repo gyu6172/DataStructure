@@ -216,6 +216,30 @@
     <ClCompile Include="0605-문제1.cpp">
       <Filter>소스 파일\0605-트리3</Filter>
     </ClCompile>
+    <ClCompile Include="작년1번.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="작년3번.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="자손노드3개잡담방.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="자손노드의개수사진3.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="전위순회결과를 후위순회로출력EOF.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="제곱,제곱근함수.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="큐에삭제구현.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="팰린드롬.cpp">
+      <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\0306-1주차_C복습.pdf">
