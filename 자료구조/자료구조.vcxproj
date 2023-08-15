@@ -220,23 +220,23 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0327-문제1.cpp">
+    <ClCompile Include="4주차%280327%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0327-문제2.cpp">
+    <ClCompile Include="4주차%280327%29-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0327-문제3.cpp">
+    <ClCompile Include="4주차%280327%29-문제3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0327-문제4.cpp">
+    <ClCompile Include="4주차%280327%29-문제4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0327-문제5.cpp">
+    <ClCompile Include="4주차%280327%29-문제5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -384,7 +384,7 @@
     <None Include="..\PDFS\01주차%280306%29-C언어복습.pdf" />
     <None Include="..\PDFS\02주차%280313%29-분석.pdf" />
     <None Include="..\PDFS\03주차%280320%29-재귀.pdf" />
-    <None Include="..\PDFS\0327-4주차_배열.pdf" />
+    <None Include="..\PDFS\4주차%280327%29-배열.pdf" />
     <None Include="..\PDFS\05주차%280403%29-배열문제.pdf" />
     <None Include="..\PDFS\06주차%280410%29-연결리스트.pdf" />
     <None Include="..\PDFS\07주차%280417%29-집합.pdf" />
