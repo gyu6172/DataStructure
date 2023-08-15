@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\0417-집합">
-      <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\중간고사 연습">
       <UniqueIdentifier>{5ee0f506-f4e4-4441-b461-ea2076ba5ed9}</UniqueIdentifier>
     </Filter>
@@ -66,6 +63,9 @@
     </Filter>
     <Filter Include="소스 파일\06주차%280410%29 - 연결리스트">
       <UniqueIdentifier>{ee3f88c2-de23-4347-9d5e-44c6e0379b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07주차%280417%29 - 집합">
+      <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -156,11 +156,11 @@
     <ClCompile Include="06주차%280410%29-문제2.cpp">
       <Filter>소스 파일\06주차%280410%29 - 연결리스트</Filter>
     </ClCompile>
-    <ClCompile Include="0417-문제1.cpp">
-      <Filter>소스 파일\0417-집합</Filter>
+    <ClCompile Include="07주차%280417%29-문제1.cpp">
+      <Filter>소스 파일\07주차%280417%29 - 집합</Filter>
     </ClCompile>
-    <ClCompile Include="0417-문제2.cpp">
-      <Filter>소스 파일\0417-집합</Filter>
+    <ClCompile Include="07주차%280417%29-문제2.cpp">
+      <Filter>소스 파일\07주차%280417%29 - 집합</Filter>
     </ClCompile>
     <ClCompile Include="중간고사연습-이중연결리스트.cpp">
       <Filter>소스 파일\중간고사 연습</Filter>
@@ -278,8 +278,8 @@
     <None Include="..\PDFS\06주차%280410%29-연결리스트.pdf">
       <Filter>소스 파일\06주차%280410%29 - 연결리스트</Filter>
     </None>
-    <None Include="..\PDFS\0417-7주차_집합.pdf">
-      <Filter>소스 파일\0417-집합</Filter>
+    <None Include="..\PDFS\07주차%280417%29-집합.pdf">
+      <Filter>소스 파일\07주차%280417%29 - 집합</Filter>
     </None>
     <None Include="..\PDFS\0501-9주차_스택.pdf">
       <Filter>소스 파일\0501-스택</Filter>
