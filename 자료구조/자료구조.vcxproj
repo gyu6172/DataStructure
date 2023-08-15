@@ -172,19 +172,19 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제1ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제2ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제3-2ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제3-2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제3ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -382,7 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\01주차%280306%29-C언어복습.pdf" />
-    <None Include="..\PDFS\2주차%280313%29-분석ㅇ.pdf" />
+    <None Include="..\PDFS\2주차%280313%29-분석.pdf" />
     <None Include="..\PDFS\0320-3주차-재귀.pdf" />
     <None Include="..\PDFS\0327-4주차_배열.pdf" />
     <None Include="..\PDFS\0403-5주차-퀴즈.pdf" />

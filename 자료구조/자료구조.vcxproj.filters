@@ -90,16 +90,16 @@
     <ClCompile Include="01주차%280306%29-문제8.cpp">
       <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제1ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제1.cpp">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제2ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제2.cpp">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제3ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제3.cpp">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="2주차%280313%29-문제3-2ㅇ.cpp">
+    <ClCompile Include="2주차%280313%29-문제3-2.cpp">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
     <ClCompile Include="0320-문제1.cpp">
@@ -260,7 +260,7 @@
     <None Include="..\PDFS\01주차%280306%29-C언어복습.pdf">
       <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </None>
-    <None Include="..\PDFS\2주차%280313%29-분석ㅇ.pdf">
+    <None Include="..\PDFS\2주차%280313%29-분석.pdf">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </None>
     <None Include="..\PDFS\0320-3주차-재귀.pdf">
