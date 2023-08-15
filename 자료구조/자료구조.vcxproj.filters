@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\0306-C언어 복습">
-      <UniqueIdentifier>{3b0f3185-f1f4-49c2-ac20-68b5232791b4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0313-분석">
-      <UniqueIdentifier>{dfae1e79-a695-471c-877a-a82c1e5d61c4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\0320-재귀">
       <UniqueIdentifier>{cfc748be-378a-43e0-98b4-3b2ec1558a62}</UniqueIdentifier>
     </Filter>
@@ -64,43 +58,49 @@
     <Filter Include="소스 파일\기말고사">
       <UniqueIdentifier>{23505d04-d780-4e8f-a90f-6b45a9cb0933}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\1주차%280306%29 - C언어 복습">
+      <UniqueIdentifier>{3b0f3185-f1f4-49c2-ac20-68b5232791b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주차%280313%29 - 분석">
+      <UniqueIdentifier>{dfae1e79-a695-471c-877a-a82c1e5d61c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0306-문제1.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제1.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제2.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제2.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제3.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제3.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제4.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제4.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제5.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제5.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제6.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제6.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제7.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제7.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0306-문제8.cpp">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <ClCompile Include="01주차%280306%29-문제8.cpp">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </ClCompile>
-    <ClCompile Include="0313-문제1.cpp">
-      <Filter>소스 파일\0313-분석</Filter>
+    <ClCompile Include="2주차%280313%29-문제1ㅇ.cpp">
+      <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="0313-문제2.cpp">
-      <Filter>소스 파일\0313-분석</Filter>
+    <ClCompile Include="2주차%280313%29-문제2ㅇ.cpp">
+      <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="0313-문제3.cpp">
-      <Filter>소스 파일\0313-분석</Filter>
+    <ClCompile Include="2주차%280313%29-문제3ㅇ.cpp">
+      <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="0313-문제3-2.cpp">
-      <Filter>소스 파일\0313-분석</Filter>
+    <ClCompile Include="2주차%280313%29-문제3-2ㅇ.cpp">
+      <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
     <ClCompile Include="0320-문제1.cpp">
       <Filter>소스 파일\0320-재귀</Filter>
@@ -257,11 +257,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\PDFS\0306-1주차_C복습.pdf">
-      <Filter>소스 파일\0306-C언어 복습</Filter>
+    <None Include="..\PDFS\01주차%280306%29-C언어복습.pdf">
+      <Filter>소스 파일\1주차%280306%29 - C언어 복습</Filter>
     </None>
-    <None Include="..\PDFS\0313-2주차_분석.pdf">
-      <Filter>소스 파일\0313-분석</Filter>
+    <None Include="..\PDFS\2주차%280313%29-분석ㅇ.pdf">
+      <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </None>
     <None Include="..\PDFS\0320-3주차-재귀.pdf">
       <Filter>소스 파일\0320-재귀</Filter>
