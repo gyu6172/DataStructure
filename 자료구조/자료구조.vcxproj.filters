@@ -13,15 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\0327-배열">
-      <UniqueIdentifier>{29ba5789-e636-4b94-8b36-6d10118a135e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0403-배열문제">
-      <UniqueIdentifier>{43ced4c5-b23e-417d-8945-217fb6d208c6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0410-연결리스트">
-      <UniqueIdentifier>{ee3f88c2-de23-4347-9d5e-44c6e0379b9e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\0417-집합">
       <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
     </Filter>
@@ -66,6 +57,15 @@
     </Filter>
     <Filter Include="소스 파일\과제">
       <UniqueIdentifier>{78733a6a-f65c-4bb4-95f7-888d4ef31a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4주차%280327%29 - 배열">
+      <UniqueIdentifier>{29ba5789-e636-4b94-8b36-6d10118a135e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05주차%280403%29 - 배열문제">
+      <UniqueIdentifier>{43ced4c5-b23e-417d-8945-217fb6d208c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06주차%280410%29 - 연결리스트">
+      <UniqueIdentifier>{ee3f88c2-de23-4347-9d5e-44c6e0379b9e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -127,34 +127,34 @@
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제1.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제2.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제3.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제4.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제5.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
     <ClCompile Include="과제2-다항식.cpp">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </ClCompile>
-    <ClCompile Include="0403-문제1.cpp">
-      <Filter>소스 파일\0403-배열문제</Filter>
+    <ClCompile Include="05주차%280403%29-문제1.cpp">
+      <Filter>소스 파일\05주차%280403%29 - 배열문제</Filter>
     </ClCompile>
-    <ClCompile Include="0403-문제2.cpp">
-      <Filter>소스 파일\0403-배열문제</Filter>
+    <ClCompile Include="05주차%280403%29-문제2.cpp">
+      <Filter>소스 파일\05주차%280403%29 - 배열문제</Filter>
     </ClCompile>
-    <ClCompile Include="0410-문제1.cpp">
-      <Filter>소스 파일\0410-연결리스트</Filter>
+    <ClCompile Include="06주차%280410%29-문제1.cpp">
+      <Filter>소스 파일\06주차%280410%29 - 연결리스트</Filter>
     </ClCompile>
-    <ClCompile Include="0410-문제2.cpp">
-      <Filter>소스 파일\0410-연결리스트</Filter>
+    <ClCompile Include="06주차%280410%29-문제2.cpp">
+      <Filter>소스 파일\06주차%280410%29 - 연결리스트</Filter>
     </ClCompile>
     <ClCompile Include="0417-문제1.cpp">
       <Filter>소스 파일\0417-집합</Filter>
@@ -270,13 +270,13 @@
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </None>
     <None Include="..\PDFS\0327-4주차_배열.pdf">
-      <Filter>소스 파일\0327-배열</Filter>
+      <Filter>소스 파일\4주차%280327%29 - 배열</Filter>
     </None>
-    <None Include="..\PDFS\0403-5주차-퀴즈.pdf">
-      <Filter>소스 파일\0403-배열문제</Filter>
+    <None Include="..\PDFS\05주차%280403%29-배열문제.pdf">
+      <Filter>소스 파일\05주차%280403%29 - 배열문제</Filter>
     </None>
-    <None Include="..\PDFS\0410-5~6주차_연결리스트.pdf">
-      <Filter>소스 파일\0410-연결리스트</Filter>
+    <None Include="..\PDFS\06주차%280410%29-연결리스트.pdf">
+      <Filter>소스 파일\06주차%280410%29 - 연결리스트</Filter>
     </None>
     <None Include="..\PDFS\0417-7주차_집합.pdf">
       <Filter>소스 파일\0417-집합</Filter>
