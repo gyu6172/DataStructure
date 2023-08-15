@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\3주차%280320%29 - 재귀">
       <UniqueIdentifier>{cfc748be-378a-43e0-98b4-3b2ec1558a62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\과제">
+      <UniqueIdentifier>{78733a6a-f65c-4bb4-95f7-888d4ef31a80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01주차%280306%29-문제1.cpp">
@@ -102,28 +105,25 @@
     <ClCompile Include="02주차%280313%29-문제3-2.cpp">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제1.cpp">
+    <ClCompile Include="03주차%280320%29-문제1.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제2.cpp">
+    <ClCompile Include="03주차%280320%29-문제2.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제3.cpp">
+    <ClCompile Include="03주차%280320%29-문제3.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제4.cpp">
+    <ClCompile Include="03주차%280320%29-문제4.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제5.cpp">
+    <ClCompile Include="03주차%280320%29-문제5.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제6.cpp">
+    <ClCompile Include="03주차%280320%29-문제6.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
-    <ClCompile Include="0320-문제7.cpp">
-      <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
-    </ClCompile>
-    <ClCompile Include="0320-과제1.cpp">
+    <ClCompile Include="03주차%280320%29-문제7.cpp">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </ClCompile>
     <ClCompile Include="0327-문제1.cpp">
@@ -201,14 +201,8 @@
     <ClCompile Include="0515-문제2.cpp">
       <Filter>소스 파일\0515-큐</Filter>
     </ClCompile>
-    <ClCompile Include="과제4-폴더용량계산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0522-문제1.cpp">
       <Filter>소스 파일\0522-트리</Filter>
-    </ClCompile>
-    <ClCompile Include="과제5-이진탐색트리.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0529-문제1.cpp">
       <Filter>소스 파일\0529-트리2</Filter>
@@ -255,6 +249,15 @@
     <ClCompile Include="메모장용.cpp">
       <Filter>소스 파일\기말고사</Filter>
     </ClCompile>
+    <ClCompile Include="03주차%280320%29-과제1.cpp">
+      <Filter>소스 파일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="과제4-폴더용량계산.cpp">
+      <Filter>소스 파일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-이진탐색트리.cpp">
+      <Filter>소스 파일\과제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PDFS\01주차%280306%29-C언어복습.pdf">
@@ -263,7 +266,7 @@
     <None Include="..\PDFS\02주차%280313%29-분석.pdf">
       <Filter>소스 파일\2주차%280313%29 - 분석</Filter>
     </None>
-    <None Include="..\PDFS\03주차0320-3주차-재귀.pdf">
+    <None Include="..\PDFS\03주차%280320%29-재귀.pdf">
       <Filter>소스 파일\3주차%280320%29 - 재귀</Filter>
     </None>
     <None Include="..\PDFS\0327-4주차_배열.pdf">
