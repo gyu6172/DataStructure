@@ -19,18 +19,6 @@
     <Filter Include="소스 파일\중간고사">
       <UniqueIdentifier>{ef205ba4-5d70-465f-829a-d026a7a456c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\0515-큐">
-      <UniqueIdentifier>{84455706-ea49-4ea4-a564-8df527ae149c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0522-트리">
-      <UniqueIdentifier>{f66084b4-4c8e-462f-b81c-b1edf8c29e95}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0529-트리2">
-      <UniqueIdentifier>{72ef82e4-55ba-4257-8134-ef4ca5ab5232}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\0605-트리3">
-      <UniqueIdentifier>{f655c920-5980-4de4-8d32-e4a67db43eb8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\기말고사연습">
       <UniqueIdentifier>{c0e105ff-416f-4228-88a3-723c080d1747}</UniqueIdentifier>
     </Filter>
@@ -66,6 +54,18 @@
     </Filter>
     <Filter Include="소스 파일\10주차%280508%29 - 스택2">
       <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11주차%280515%29 - 큐">
+      <UniqueIdentifier>{84455706-ea49-4ea4-a564-8df527ae149c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12주차%280522%29 - 트리">
+      <UniqueIdentifier>{f66084b4-4c8e-462f-b81c-b1edf8c29e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13주차%280529%29 - 트리2">
+      <UniqueIdentifier>{72ef82e4-55ba-4257-8134-ef4ca5ab5232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14주차%280605%29 - 트리3">
+      <UniqueIdentifier>{f655c920-5980-4de4-8d32-e4a67db43eb8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -195,23 +195,23 @@
     <ClCompile Include="10주차%280508%29-문제2.cpp">
       <Filter>소스 파일\10주차%280508%29 - 스택2</Filter>
     </ClCompile>
-    <ClCompile Include="0515-문제1.cpp">
-      <Filter>소스 파일\0515-큐</Filter>
+    <ClCompile Include="11주차%280515%29-문제1.cpp">
+      <Filter>소스 파일\11주차%280515%29 - 큐</Filter>
     </ClCompile>
-    <ClCompile Include="0515-문제2.cpp">
-      <Filter>소스 파일\0515-큐</Filter>
+    <ClCompile Include="11주차%280515%29-문제2.cpp">
+      <Filter>소스 파일\11주차%280515%29 - 큐</Filter>
     </ClCompile>
-    <ClCompile Include="0522-문제1.cpp">
-      <Filter>소스 파일\0522-트리</Filter>
+    <ClCompile Include="12주차%280522%29-문제1.cpp">
+      <Filter>소스 파일\12주차%280522%29 - 트리</Filter>
     </ClCompile>
-    <ClCompile Include="0529-문제1.cpp">
-      <Filter>소스 파일\0529-트리2</Filter>
+    <ClCompile Include="13주차%280529%29-문제1.cpp">
+      <Filter>소스 파일\13주차%280529%29 - 트리2</Filter>
     </ClCompile>
-    <ClCompile Include="0529-문제2.cpp">
-      <Filter>소스 파일\0529-트리2</Filter>
+    <ClCompile Include="13주차%280529%29-문제2.cpp">
+      <Filter>소스 파일\13주차%280529%29 - 트리2</Filter>
     </ClCompile>
-    <ClCompile Include="0605-문제1.cpp">
-      <Filter>소스 파일\0605-트리3</Filter>
+    <ClCompile Include="14주차%280605%29-문제1.cpp">
+      <Filter>소스 파일\14주차%280605%29 - 트리3</Filter>
     </ClCompile>
     <ClCompile Include="작년1번.cpp">
       <Filter>소스 파일\기말고사연습</Filter>
@@ -287,17 +287,17 @@
     <None Include="..\PDFS\10주차%280508%29-스택2.pdf">
       <Filter>소스 파일\10주차%280508%29 - 스택2</Filter>
     </None>
-    <None Include="..\PDFS\0522-12주차_트리.pdf">
-      <Filter>소스 파일\0522-트리</Filter>
+    <None Include="..\PDFS\12주차%280522%29-트리.pdf">
+      <Filter>소스 파일\12주차%280522%29 - 트리</Filter>
     </None>
-    <None Include="..\PDFS\0515-11주차_큐.pdf">
-      <Filter>소스 파일\0515-큐</Filter>
+    <None Include="..\PDFS\11주차%280515%29-큐.pdf">
+      <Filter>소스 파일\11주차%280515%29 - 큐</Filter>
     </None>
-    <None Include="..\PDFS\0529-13주차_트리(2).pdf">
-      <Filter>소스 파일\0529-트리2</Filter>
+    <None Include="..\PDFS\13주차%280529%29-트리%282%29.pdf">
+      <Filter>소스 파일\13주차%280529%29 - 트리2</Filter>
     </None>
-    <None Include="..\PDFS\0605-14주차_트리(3).pdf">
-      <Filter>소스 파일\0605-트리3</Filter>
+    <None Include="..\PDFS\14주차%280605%29-트리%283%29.pdf">
+      <Filter>소스 파일\14주차%280605%29 - 트리3</Filter>
     </None>
   </ItemGroup>
 </Project>

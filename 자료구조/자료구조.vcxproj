@@ -292,27 +292,27 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0515-문제1.cpp">
+    <ClCompile Include="11주차%280515%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0515-문제2.cpp">
+    <ClCompile Include="11주차%280515%29-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0522-문제1.cpp">
+    <ClCompile Include="12주차%280522%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0529-문제1.cpp">
+    <ClCompile Include="13주차%280529%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0529-문제2.cpp">
+    <ClCompile Include="13주차%280529%29-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0605-문제1.cpp">
+    <ClCompile Include="14주차%280605%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="과제2-다항식.cpp">
@@ -390,10 +390,10 @@
     <None Include="..\PDFS\07주차%280417%29-집합.pdf" />
     <None Include="..\PDFS\09주차%280501%29-스택.pdf" />
     <None Include="..\PDFS\10주차%280508%29-스택2.pdf" />
-    <None Include="..\PDFS\0515-11주차_큐.pdf" />
-    <None Include="..\PDFS\0522-12주차_트리.pdf" />
-    <None Include="..\PDFS\0529-13주차_트리(2).pdf" />
-    <None Include="..\PDFS\0605-14주차_트리(3).pdf" />
+    <None Include="..\PDFS\11주차%280515%29-큐.pdf" />
+    <None Include="..\PDFS\12주차%280522%29-트리.pdf" />
+    <None Include="..\PDFS\13주차%280529%29-트리%282%29.pdf" />
+    <None Include="..\PDFS\14주차%280605%29-트리%283%29.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
