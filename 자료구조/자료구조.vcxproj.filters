@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\중간고사">
       <UniqueIdentifier>{ef205ba4-5d70-465f-829a-d026a7a456c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\0508-스택2">
-      <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\0515-큐">
       <UniqueIdentifier>{84455706-ea49-4ea4-a564-8df527ae149c}</UniqueIdentifier>
     </Filter>
@@ -66,6 +63,9 @@
     </Filter>
     <Filter Include="소스 파일\09주차%280501%29 - 스택">
       <UniqueIdentifier>{6d9ad1f5-550a-4fc2-90ef-07d660fa0b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10주차%280508%29 - 스택2">
+      <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -186,14 +186,14 @@
     <ClCompile Include="09주차%280501%29-문제2.cpp">
       <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </ClCompile>
-    <ClCompile Include="0508-문제1.cpp">
-      <Filter>소스 파일\0508-스택2</Filter>
+    <ClCompile Include="10주차%280508%29-문제1.cpp">
+      <Filter>소스 파일\10주차%280508%29 - 스택2</Filter>
     </ClCompile>
     <ClCompile Include="09주차%280501%29-스택틀.cpp">
       <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </ClCompile>
-    <ClCompile Include="0508-문제2.cpp">
-      <Filter>소스 파일\0508-스택2</Filter>
+    <ClCompile Include="10주차%280508%29-문제2.cpp">
+      <Filter>소스 파일\10주차%280508%29 - 스택2</Filter>
     </ClCompile>
     <ClCompile Include="0515-문제1.cpp">
       <Filter>소스 파일\0515-큐</Filter>
@@ -284,8 +284,8 @@
     <None Include="..\PDFS\09주차%280501%29-스택.pdf">
       <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </None>
-    <None Include="..\PDFS\0508-10주차_스택2.pdf">
-      <Filter>소스 파일\0508-스택2</Filter>
+    <None Include="..\PDFS\10주차%280508%29-스택2.pdf">
+      <Filter>소스 파일\10주차%280508%29 - 스택2</Filter>
     </None>
     <None Include="..\PDFS\0522-12주차_트리.pdf">
       <Filter>소스 파일\0522-트리</Filter>

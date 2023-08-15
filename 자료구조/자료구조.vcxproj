@@ -284,11 +284,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0508-문제1.cpp">
+    <ClCompile Include="10주차%280508%29-문제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0508-문제2.cpp">
+    <ClCompile Include="10주차%280508%29-문제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -389,7 +389,7 @@
     <None Include="..\PDFS\06주차%280410%29-연결리스트.pdf" />
     <None Include="..\PDFS\07주차%280417%29-집합.pdf" />
     <None Include="..\PDFS\09주차%280501%29-스택.pdf" />
-    <None Include="..\PDFS\0508-10주차_스택2.pdf" />
+    <None Include="..\PDFS\10주차%280508%29-스택2.pdf" />
     <None Include="..\PDFS\0515-11주차_큐.pdf" />
     <None Include="..\PDFS\0522-12주차_트리.pdf" />
     <None Include="..\PDFS\0529-13주차_트리(2).pdf" />
