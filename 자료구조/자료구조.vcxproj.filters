@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\중간고사">
       <UniqueIdentifier>{ef205ba4-5d70-465f-829a-d026a7a456c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\0501-스택">
-      <UniqueIdentifier>{6d9ad1f5-550a-4fc2-90ef-07d660fa0b7b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\0508-스택2">
       <UniqueIdentifier>{16cbbb09-658d-475f-b164-b3cc1e38b007}</UniqueIdentifier>
     </Filter>
@@ -66,6 +63,9 @@
     </Filter>
     <Filter Include="소스 파일\07주차%280417%29 - 집합">
       <UniqueIdentifier>{ffad2f40-89bb-4ec2-8486-794b2a4d62a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09주차%280501%29 - 스택">
+      <UniqueIdentifier>{6d9ad1f5-550a-4fc2-90ef-07d660fa0b7b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -180,17 +180,17 @@
     <ClCompile Include="0426-문제3.cpp">
       <Filter>소스 파일\중간고사</Filter>
     </ClCompile>
-    <ClCompile Include="0501-문제1.cpp">
-      <Filter>소스 파일\0501-스택</Filter>
+    <ClCompile Include="09주차%280501%29-문제1.cpp">
+      <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </ClCompile>
-    <ClCompile Include="0501-문제2.cpp">
-      <Filter>소스 파일\0501-스택</Filter>
+    <ClCompile Include="09주차%280501%29-문제2.cpp">
+      <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </ClCompile>
     <ClCompile Include="0508-문제1.cpp">
       <Filter>소스 파일\0508-스택2</Filter>
     </ClCompile>
-    <ClCompile Include="스택틀.cpp">
-      <Filter>소스 파일\0501-스택</Filter>
+    <ClCompile Include="09주차%280501%29-스택틀.cpp">
+      <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </ClCompile>
     <ClCompile Include="0508-문제2.cpp">
       <Filter>소스 파일\0508-스택2</Filter>
@@ -281,8 +281,8 @@
     <None Include="..\PDFS\07주차%280417%29-집합.pdf">
       <Filter>소스 파일\07주차%280417%29 - 집합</Filter>
     </None>
-    <None Include="..\PDFS\0501-9주차_스택.pdf">
-      <Filter>소스 파일\0501-스택</Filter>
+    <None Include="..\PDFS\09주차%280501%29-스택.pdf">
+      <Filter>소스 파일\09주차%280501%29 - 스택</Filter>
     </None>
     <None Include="..\PDFS\0508-10주차_스택2.pdf">
       <Filter>소스 파일\0508-스택2</Filter>
