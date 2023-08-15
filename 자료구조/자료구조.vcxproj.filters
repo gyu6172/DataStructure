@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\기말고사연습">
       <UniqueIdentifier>{c0e105ff-416f-4228-88a3-723c080d1747}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\기말고사">
+      <UniqueIdentifier>{23505d04-d780-4e8f-a90f-6b45a9cb0933}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0306-문제1.cpp">
@@ -239,6 +242,18 @@
     </ClCompile>
     <ClCompile Include="팰린드롬.cpp">
       <Filter>소스 파일\기말고사연습</Filter>
+    </ClCompile>
+    <ClCompile Include="기말문제1.cpp">
+      <Filter>소스 파일\기말고사</Filter>
+    </ClCompile>
+    <ClCompile Include="기말문제2.cpp">
+      <Filter>소스 파일\기말고사</Filter>
+    </ClCompile>
+    <ClCompile Include="기말문제3.cpp">
+      <Filter>소스 파일\기말고사</Filter>
+    </ClCompile>
+    <ClCompile Include="메모장용.cpp">
+      <Filter>소스 파일\기말고사</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
